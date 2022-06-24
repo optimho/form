@@ -59,6 +59,7 @@ for (let val of [creditCardInput3, veggiSelect3, termsCheck3]){
         const {name, type, value, checked} = e.target
         console.log(e.target)
         form3Data[name] = type === 'checkbox' ? checked : value;
+        console.log(form3Data)
         // console.log(`name ${name3} type ${type3} value ${value3} is checked ${checked3}`)
 
     })

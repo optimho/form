@@ -55,6 +55,7 @@ Here is another way of doing the above
 
 
 for (let val of [creditCardInput3, veggiSelect3, termsCheck3]){
+    // val.addEventListener('change', (e)=>{
     val.addEventListener('input', (e)=>{
         const {name, type, value, checked} = e.target
         console.log(e.target)
